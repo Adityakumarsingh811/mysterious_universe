@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mysterious Universe - ब्रह्मांड के अनसुलझे रहस्य</title>
+    <meta name="description" content="ब्रह्मांड, अंतरिक्ष, ब्लैक होल और अंतरिक्ष विज्ञान से जुड़े अनसुलझे रहस्यों की हिंदी डॉक्यूमेंट्री वेबसाइट।">
+    <style>
+        :root {
+            --bg-color: #05070A;
+            --card-bg: #0B132B;
+            --accent-cyan: #00F5D4;
+            --text-main: #E2E8F0;
+            --text-muted: #94A3B8;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        header {
+            padding: 2.5rem 1rem;
+            text-align: center;
+            border-bottom: 1px solid rgba(0, 245, 212, 0.1);
+        }
+        header h1 {
+            font-size: 2.5rem;
+            color: var(--accent-cyan);
+            letter-spacing: 2px;
+            margin-bottom: 0.5rem;
+        }
+        header p {
+            color: var(--text-muted);
+            font-size: 1.1rem;
+        }
+        .container {
+            max-width: 1100px;
+            margin: 2rem auto;
+            padding: 0 1.5rem;
+            width: 100%;
+        }
+        .section-title {
+            font-size: 1.5rem;
+            color: #fff;
+            margin-bottom: 1.5rem;
+            border-left: 4px solid var(--accent-cyan);
+            padding-left: 10px;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin-bottom: 3rem;
+        }
+        .card {
+            background: var(--card-bg);
+            border: 1px solid rgba(0, 245, 212, 0.2);
+            border-radius: 12px;
+            padding: 1.5rem;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 245, 212, 0.2);
+        }
+        .card h3 {
+            color: var(--accent-cyan);
+            font-size: 1.2rem;
+            margin-bottom: 0.75rem;
+        }
+        .card p {
+            color: var(--text-muted);
+            font-size: 0.95rem;
+            line-height: 1.5;
+            margin-bottom: 1.2rem;
+        }
+        .read-btn {
+            display: inline-block;
+            color: var(--accent-cyan);
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 0.9rem;
+            border-bottom: 1px dashed var(--accent-cyan);
+            padding-bottom: 2px;
+        }
+        .read-btn:hover {
+            color: #fff;
+            border-color: #fff;
+        }
+        footer {
+            text-align: center;
+            padding: 1.5rem;
+            color: var(--text-muted);
+            font-size: 0.9rem;
+            border-top: 1px solid rgba(255,255,255,0.05);
+        }
+        footer a {
+            color: var(--accent-cyan);
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Mysterious Universe</h1>
+        <p>ब्रह्मांड, अंतरिक्ष और अनसुलझे रहस्यों की गहरी दुनिया</p>
+    </header>
+
+    <div class="container">
+        <h2 class="section-title">प्रमुख ब्रह्मांडीय रहस्य (Cosmic Mysteries)</h2>
+        
+        <div class="grid">
+            <!-- Topic 1: Mercury Ice -->
+            <div class="card">
+                <h3>Mercury की छुपी बर्फ</h3>
+                <p>सूरज के सबसे करीब होने के बावजूद बुध ग्रह के अंधेरे गड्ढों में बर्फ का रहस्य क्या है?</p>
+                <a href="mercury-ice.html" class="read-btn">पूरी डॉक्यूमेंट्री पढ़ें →</a>
+            </div>
+
+            <!-- Topic 2 -->
+            <div class="card">
+                <h3>The Wow! Signal</h3>
+                <p>1977 में गहरे अंतरिक्ष से आया वह रहस्यमयी रेडियो सिग्नल जिसका सच आज तक अनसुलझा है।</p>
+                <a href="#" class="read-btn">जल्द आ रहा है →</a>
+            </div>
+
+            <!-- Topic 3 -->
+            <div class="card">
+                <h3>Rogue Planets</h3>
+                <p>बिना किसी तारे के, अंतरिक्ष के अंतहीन अंधकार में अकेले भटकने वाले आवारा ग्रहों की कहानी।</p>
+                <a href="#" class="read-btn">जल्द आ रहा है →</a>
+            </div>
+
+            <!-- Topic 4 -->
+            <div class="card">
+                <h3>Fermi Paradox</h3>
+                <p>अगर ब्रह्मांड में अरबों तारे हैं, तो एलियन सभ्यताएं अभी तक इंसानों को नजर क्यों नहीं आईं?</p>
+                <a href="#" class="read-btn">जल्द आ रहा है →</a>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2026 Mysterious Universe. Explore <a href="https://mysterious-world-811.vercel.app" target="_blank">Mysterious World</a></p>
+    </footer>
+
+</body>
+</html>
